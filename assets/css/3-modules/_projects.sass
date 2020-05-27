@@ -1,0 +1,113 @@
+.alt-section 
+	background: #E5EAEE
+	overflow-x: hidden
+
+.project-trans
+	width: 200%
+	position: relative
+	left: 0%
+	+transition(all, 800ms)
+
+.thumb-wrap, .project-wrap
+	width: 50%
+	float: left
+
+.thumbnails-container
+	max-width: 960px
+	margin: 0px auto 
+	padding-bottom: 100px
+	+clearfix
+
+	.thumb-unit
+	 width: 25%
+	 background: pink
+	 display: block
+	 float: left
+	 position: relative
+	 padding-top: 18%
+	 +perspective(300)
+	 overflow: hidden
+
+	 @media screen and (max-width: 760px)
+	  width: 50%
+	  padding-top: 26%
+
+	 background-position: center center
+	 background-repeat: no-repeat
+	 background-size: cover
+	 
+
+	 .overlay
+	  +position(absolute, 0% 0px null 0px)
+	  height: 100%
+	  background: fade-out($accent-color, .1)
+	  text-align: center
+	  +transform(matrix3d(0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1))
+	  opacity: 0
+	  +transition(opacity, 300ms, ease-in, 500ms)
+
+	  strong 
+	  	display: block
+	  	padding-top: 25px 
+	  	padding-bottom: 0px
+	  	color: white
+	  	font-weight: 300
+	  	text-transform: uppercase
+	  	font-size: 24px
+	  	line-height: 1.2
+
+	  [class^="zoom-icon"]
+	   padding: 0px
+
+
+	 &:hover 
+
+	 	z-index: 2
+
+	 	.overlay
+	  		@extend %animation
+	  		opacity: 1
+
+.projects-container
+	max-width: 700px
+	margin: 0px auto
+	position: relative
+	display: none
+
+	.return
+		+size(45px)
+		cursor: pointer
+		opacity: .6
+		+position(absolute, null null null 0px)
+
+
+		&:hover
+		 opacity: .2
+
+	h4
+	 color: #e1c184
+	 font-weight: 325
+	 text-transform: uppercase
+	 text-align: center
+	 font-size: 24px
+	 margin: 0 0 20px
+
+	img 
+	 max-width: 100%
+	 margin-bottom: 20px
+
+  	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

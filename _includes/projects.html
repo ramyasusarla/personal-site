@@ -1,0 +1,39 @@
+<section class = "alt-section">
+	<h3 id = "projects">Projects</h3>
+
+	<div class = "project-trans">
+
+	  <div class = "thumb-wrap">
+		<div class = "thumbnails-container">
+
+			{% for project in site.data.settings.projects %}
+			
+			<div class = "thumb-unit" style = "background-image: url(../assets/img/projects/{{project.folder}}/thumb.jpg);" data-folder = "{{project.folder}}">
+
+				<div class = "overlay">
+					<strong> {{project.name}} </strong>
+					<div class = "zoom-icon"><img src= "../assets/img/click.png" alt="Click Me" width = "100" height = "100"></div>
+				</div>
+
+			</div>
+
+			{% endfor %}
+
+
+		</div>
+	  </div>
+
+	  <div class = "project-wrap">
+		<div class = "projects-container">
+			<div class= "return"><img src= "../assets/img/back.png" alt="Back Button" width="45" height="37"></div>
+			<h4 class = "title"> Do something </h4>
+			<div class = "project-load">
+				
+
+			</div>
+
+		 </div>
+	  </div>
+
+	</div>
+</section>
