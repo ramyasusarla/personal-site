@@ -1,5 +1,5 @@
 projects:
 - {name: Autism Robot, folder: 'proj-1', file: 'projects/proj-1.html'}
 - {name: Persistance of Vision, folder: 'proj-2', file: 'projects/proj-2.html'}
-- {name: Bookshelf, folder: 'proj-3', file: 'projects/proj-3.html'}
+- {name: Bookshelf (2020), folder: 'proj-3', file: 'projects/proj-3.html'}
 - {name: Podcasts, folder: 'proj-4', file: 'projects/proj-4.html'}
