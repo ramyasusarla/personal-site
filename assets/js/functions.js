@@ -43,7 +43,7 @@ function projectLoad(){
 		var spinner = '<div class="loader">Loading...</div>';
 		var newHTML = 'https://ramyasusarla.github.io/personal-site/projects/'+newFolder + '.html' ;
 
-		$('.project-load').html(spinner).load("https://ramyasusarla.github.io/personal-site/projects/proj-1.html")
+		$('.project-load').html(spinner).load("https://ramyasusarla.github.io/personal-site/projects/"+newFolder+".html")
 		$('.title').text(newTitle);
 	});
 }
