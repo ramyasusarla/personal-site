@@ -41,7 +41,7 @@ function projectLoad(){
 		var newFolder = $this.data('folder');
 		var newTitle = $this.find('strong').text();
 		var spinner = '<div class="loader">Loading...</div>';
-		var newHTML = '/projects/'+newFolder + '.html' ;
+		var newHTML = 'https://ramyasusarla.github.io/personal-site/projects/'+newFolder + '.html' ;
 
 		$('.project-load').html(spinner).load(newHTML)
 		$('.title').text(newTitle);
