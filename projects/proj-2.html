@@ -1,3 +1,12 @@
-PROJECT 2 GOES HERE WHICH IS AWESOME
+<p>Definition: an LED display device that composes images by displaying one spatial portion at a time in rapid succession </p>
 
-<img src= "/assets/img/projects/proj-2/IMG_8970.jpg" alt = "project 2"> 
+<p>For this project I set out to create a persistence of vision device using a 12 inch fan as the base. My first step was to disassemble the fan by removing the front covering and the fan blades. After doing so the main step was to assemble the rotating portion of the persistence of vision device. This included 3D printing the base shape of it - it was essential that the hole for the axle fit exactly to dimensions of the fan (too loose meant it would fall off and too tight meant it wouldn’t rotate). </p>
+
+<p>The next step was wiring the leds and resistors to the Arduino. For this project, I used the Arduino Nano V3 Module because it was small enough to fit the width of the base. Wiring the 5 LEDS and 5 resistors (110 Ω)  to such a small board board proved challenging as there couldn’t be any contact between the resistors even though they were being soldered to adjacent digital pins. I chose to solder them at an angle to the LEDS and coated the resistors with hot glue to act as an insulator. I then soldered a switch to the arduino and two disk batteries.</p>
+
+<div class = "photo4-container"><img src= "/assets/img/projects/proj-2/arduino.jpg" alt = "project 1"> </div>
+
+<p>For the coding portion, I utilized the Arduino platform and C++ language. I began by testing the device to display a simple circle by turning on one LED for a set amount of time (ex. 10s).  I then moved onto coding the flower pattern that is displayed in the video. I accomplished this by alternating between the 5 LEDS at 5ms intervals - it worked! The only issue with the device was the alignment of the starting position was off so the image would go out of focus. Any easy way to fix this would’ve been by calibrating the device with magnets - one on the fan and one on the led base.</p>
+
+<div class = "photo4-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vpG7924sqg0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
