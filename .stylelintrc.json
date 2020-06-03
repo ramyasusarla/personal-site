@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
   "extends": "stylelint-config-standard"
+=======
+  "extends": "stylelint-config-sass-guidelines"
+>>>>>>> stylelint
 }

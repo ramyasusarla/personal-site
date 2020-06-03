@@ -5,8 +5,12 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   margin: 0;
 }
+=======
+  margin: 0; }
+>>>>>>> stylelint
 
 article,
 aside,
@@ -20,8 +24,12 @@ main,
 nav,
 section,
 summary {
+<<<<<<< HEAD
   display: block;
 }
+=======
+  display: block; }
+>>>>>>> stylelint
 
 audio,
 canvas,
@@ -38,8 +46,12 @@ audio:not([controls]) {
 
 [hidden],
 template {
+<<<<<<< HEAD
   display: none;
 }
+=======
+  display: none; }
+>>>>>>> stylelint
 
 a {
   background: 0 0;
@@ -47,8 +59,12 @@ a {
 
 a:active,
 a:hover {
+<<<<<<< HEAD
   outline: 0;
 }
+=======
+  outline: 0; }
+>>>>>>> stylelint
 
 abbr[title] {
   border-bottom: 1px dotted;
@@ -56,8 +72,12 @@ abbr[title] {
 
 b,
 strong {
+<<<<<<< HEAD
   font-weight: 700;
 }
+=======
+  font-weight: 700; }
+>>>>>>> stylelint
 
 dfn {
   font-style: italic;
@@ -65,8 +85,12 @@ dfn {
 
 h1 {
   font-size: 2em;
+<<<<<<< HEAD
   margin: 0.67em 0;
 }
+=======
+  margin: 0.67em 0; }
+>>>>>>> stylelint
 
 mark {
   background: #ff0;
@@ -86,12 +110,19 @@ sup {
 }
 
 sup {
+<<<<<<< HEAD
   top: -0.5em;
 }
 
 sub {
   bottom: -0.25em;
 }
+=======
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+>>>>>>> stylelint
 
 img {
   border: 0;
@@ -112,16 +143,25 @@ hr {
 }
 
 pre {
+<<<<<<< HEAD
   overflow: auto;
 }
+=======
+  overflow: auto; }
+>>>>>>> stylelint
 
 code,
 kbd,
 pre,
 samp {
+<<<<<<< HEAD
   font-family: monospace, monospace;
   font-size: 1em;
 }
+=======
+  font-family: monospace,monospace;
+  font-size: 1em; }
+>>>>>>> stylelint
 
 button,
 input,
@@ -134,6 +174,7 @@ textarea {
 }
 
 button {
+<<<<<<< HEAD
   overflow: visible;
 }
 
@@ -141,6 +182,13 @@ button,
 select {
   text-transform: none;
 }
+=======
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+>>>>>>> stylelint
 
 button,
 html input[type=button],
@@ -152,8 +200,12 @@ input[type=submit] {
 
 button[disabled],
 html input[disabled] {
+<<<<<<< HEAD
   cursor: default;
 }
+=======
+  cursor: default; }
+>>>>>>> stylelint
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -173,8 +225,12 @@ input[type=radio] {
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
+<<<<<<< HEAD
   height: auto;
 }
+=======
+  height: auto; }
+>>>>>>> stylelint
 
 input[type=search] {
   -webkit-appearance: textfield;
@@ -185,14 +241,22 @@ input[type=search] {
 
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
+<<<<<<< HEAD
   -webkit-appearance: none;
 }
+=======
+  -webkit-appearance: none; }
+>>>>>>> stylelint
 
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
+<<<<<<< HEAD
   padding: 0.35em 0.625em 0.75em;
 }
+=======
+  padding: 0.35em 0.625em 0.75em; }
+>>>>>>> stylelint
 
 legend {
   border: 0;
@@ -214,15 +278,23 @@ table {
 
 td,
 th {
+<<<<<<< HEAD
   padding: 0;
 }
+=======
+  padding: 0; }
+>>>>>>> stylelint
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
+<<<<<<< HEAD
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
 }
+=======
+  src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff'); }
+>>>>>>> stylelint
 
 .gigantic,
 .huge,
@@ -241,16 +313,26 @@ h6 {
 
 .gigantic {
   font-size: 110px;
+<<<<<<< HEAD
   line-height: 1.09;
   letter-spacing: -2px;
 }
+=======
+  letter-spacing: -2px;
+  line-height: 1.09; }
+>>>>>>> stylelint
 
 .huge,
 h1 {
   font-size: 68px;
+<<<<<<< HEAD
   line-height: 1.05;
   letter-spacing: -1px;
 }
+=======
+  letter-spacing: -1px;
+  line-height: 1.05; }
+>>>>>>> stylelint
 
 .large,
 h2 {
@@ -277,8 +359,12 @@ small {
 }
 
 p {
+<<<<<<< HEAD
   margin: 0 0 20px 0;
 }
+=======
+  margin: 0 0 20px; }
+>>>>>>> stylelint
 
 em {
   font-style: italic;
@@ -292,6 +378,7 @@ hr {
   border: solid #ddd;
   border-width: 1px 0 0;
   clear: both;
+<<<<<<< HEAD
   margin: 10px 0 30px;
   height: 0;
 }
@@ -306,6 +393,19 @@ a:hover,
 a:focus {
   color: #d89993;
 }
+=======
+  height: 0;
+  margin: 10px 0 30px; }
+
+a {
+  color: #bd5248;
+  outline: 0;
+  text-decoration: none; }
+
+a:hover,
+a:focus {
+  color: #d89993; }
+>>>>>>> stylelint
 
 ::selection {
   background: #fff498;
@@ -329,10 +429,14 @@ body {
 
 body {
   background: #f6f6f8;
-  font-size: 14px;
-  line-height: 1.6;
-  font-family: "Open Sans" sans-serif;
   color: #2e2d33;
+  font-family: 'Open Sans' sans-serif;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
+<<<<<<< HEAD
   -webkit-text-size-adjust: 100%;
 }
+=======
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%; }
+>>>>>>> stylelint
