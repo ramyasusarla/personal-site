@@ -148,7 +148,7 @@ td, th {
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
 
-.bookshelf-container .row-1 .book-unit:hover .overlay, .thumbnails-container .thumb-unit:hover .overlay {
+.bookshelf-container [class^="row-"] .book-unit:hover .overlay, .thumbnails-container .thumb-unit:hover .overlay {
   -webkit-animation: animation 750ms linear both;
   animation: animation 900ms linear both; }
 
@@ -604,9 +604,11 @@ footer {
         font-weight: 300;
         text-transform: uppercase;
         font-size: 24px;
-        line-height: 1.2; }
+        line-height: 1.2;
+        margin-bottom: 0px; }
       .thumbnails-container .thumb-unit .overlay [class^="zoom-icon"] {
-        padding: 0px; }
+        padding: 0px;
+        margin-top: 0px; }
     .thumbnails-container .thumb-unit:hover {
       z-index: 2; }
       .thumbnails-container .thumb-unit:hover .overlay {
@@ -776,18 +778,21 @@ form {
   position: relative; }
   .bookshelf-container .bookshelf {
     position: absolute; }
-  .bookshelf-container .row-1 {
+  .bookshelf-container [class^="row-"] {
     position: absolute;
-    margin: 55px auto 50px;
     z-index: 2;
     width: 90%;
     height: 19%;
     margin-left: 55px; }
-    .bookshelf-container .row-1:after {
+    .bookshelf-container [class^="row-"]:after {
       content: "";
       display: table;
       clear: both; }
-    .bookshelf-container .row-1 .book-unit {
+    .bookshelf-container [class^="row-"].row-1 {
+      margin-top: 55px; }
+    .bookshelf-container [class^="row-"].row-2 {
+      margin-top: 230px; }
+    .bookshelf-container [class^="row-"] .book-unit {
       width: 105px;
       height: 100%;
       background-size: auto 100%;
@@ -796,7 +801,7 @@ form {
       margin-right: 35px;
       float: left;
       display: block; }
-      .bookshelf-container .row-1 .book-unit .overlay {
+      .bookshelf-container [class^="row-"] .book-unit .overlay {
         position: relative;
         top: 0%;
         right: 0px;
@@ -814,7 +819,7 @@ form {
         -webkit-transition: opacity, 500ms, ease-in, 500ms;
         -moz-transition: opacity, 500ms, ease-in, 500ms;
         transition: opacity, 500ms, ease-in, 500ms; }
-        .bookshelf-container .row-1 .book-unit .overlay strong {
+        .bookshelf-container [class^="row-"] .book-unit .overlay strong {
           display: block;
           padding-top: 50px;
           padding-bottom: 0px;
@@ -823,9 +828,9 @@ form {
           text-transform: uppercase;
           font-size: 24px;
           line-height: 1.2; }
-      .bookshelf-container .row-1 .book-unit:hover {
+      .bookshelf-container [class^="row-"] .book-unit:hover {
         z-index: 4; }
-        .bookshelf-container .row-1 .book-unit:hover .overlay {
+        .bookshelf-container [class^="row-"] .book-unit:hover .overlay {
           opacity: 1; }
 
 .photo1-container {
