@@ -19,38 +19,38 @@
 	 	&.row-2
 	  	margin-top: 230px 
 
-			.book-unit
-				width: 105px
-		 		height: 100%
-		 		background-size: auto 100%
-		 		background-position: center center
-		 		background-repeat: no-repeat
-		 		margin-right: 35px
-		 		float: left
-		 		display: block
-		 		.overlay
-		  			+position(relative, 0% 0px null 0px)
-		  			height: 100%
-		  			width: 105px
-		  			background: fade-out($accent-color, .1)
-		  			text-align: center
-		  			+transform(matrix3d(0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1))
-		  			opacity: 0
-		  			+transition(opacity, 500ms, ease-in, 500ms)
+		.book-unit
+			width: 105px
+		 	height: 100%
+		 	background-size: auto 100%
+		 	background-position: center center
+		 	background-repeat: no-repeat
+		 	margin-right: 35px
+		 	float: left
+		 	display: block
+		 	.overlay
+		  		+position(relative, 0% 0px null 0px)
+		  		height: 100%
+		  		width: 105px
+		  		background: fade-out($accent-color, .1)
+		  		text-align: center
+		  		+transform(matrix3d(0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1))
+		  		opacity: 0
+		  		+transition(opacity, 500ms, ease-in, 500ms)
 
-					strong 
-		  				display: block
-		  				padding-top: 50px 
-		  				padding-bottom: 0px
-		  				color: white
-		  				font-weight: 300
-		  				text-transform: uppercase
-		  				font-size: 24px
-		  				line-height: 1.2
+				strong 
+		  			display: block
+		  			padding-top: 50px 
+		  			padding-bottom: 0px
+		  			color: white
+		  			font-weight: 300
+		  			text-transform: uppercase
+		  			font-size: 24px
+		  			line-height: 1.2
 
-		 			&:hover 
-		  				z-index: 4
+		 	&:hover 
+		  		z-index: 4
 
-	 					.overlay
-	  						@extend %animation
-	  						opacity: 1
+	 			.overlay
+	  				@extend %animation
+	  				opacity: 1
